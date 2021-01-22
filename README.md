@@ -88,12 +88,12 @@ The following features will be added soon.
 * https://github.com/polarisZhao/PFLD-pytorch
 
 修改的地方：
-1.import问题，先删除该报错的import行，在下面报错的代码上，ALT+Enter键，补全import导包。
+*1.import问题，先删除该报错的import行，在下面报错的代码上，ALT+Enter键，补全import导包。
 如：from FaceBoxes.FaceBoxes import FaceBoxes   、from models.mobilefacenet import MobileFaceNet
-2.from PIL import Image报错，安装Pillow==7.1.1
-3.第三点见“大修第三点.jpg”
-4.缺的包pip一下
-5.test_camera_mobilefacenet_openvino.py运行不了，openvino较复杂
+*2.from PIL import Image报错，安装Pillow==7.1.1
+*3.第三点见“大修第三点.jpg”
+*4.缺的包pip一下
+*5.test_camera_mobilefacenet_openvino.py运行不了，openvino较复杂
 
 
 
