@@ -54,25 +54,23 @@ Optimize with OpenVINO and test on a camera with a lightweight face detector. Ab
 | Hourglass2  | 3.06 | 5.54 | 3.55 | 8.73 | 
 
 ## Visualization Results
-* Face camera 1
+* Face camera test 1
 
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/camera_result/%E6%8D%95%E8%8E%B7.PNG)
 
-* Face camera 2
+* Face camera test 2
 
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/camera_result/%E6%8D%95%E8%8E%B72.PNG)
 
-* Face picture 1
+* Face picture test 1
 
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/results/12_Group_Group_12_Group_Group_12_111.jpg)
 
-* Face picture 2
+* Face picture test 2
 
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/results/12_Group_Group_12_Group_Group_12_41.jpg)
 
-* Face picture 3
 
-![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/results/12_Group_Group_12_Group_Group_12_41.jpg)
 
 
 ## TODO
@@ -90,7 +88,7 @@ The following features will be added soon.
 
 
 ## References:
-* https://github.com/cunjian/pytorch_face_landmark
+* https://github.com/cunjian/pytorch_face_landmark(first)
 * https://github.com/biubug6/Pytorch_Retinaface
 * https://github.com/cleardusk/3DDFA_V2
 * https://github.com/lzx1413/pytorch_face_landmark
