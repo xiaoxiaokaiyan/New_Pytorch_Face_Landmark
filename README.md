@@ -100,19 +100,20 @@ The following features will be added soon.
 * 106-point: [JD](https://facial-landmarks-localization-challenge.github.io/)
 
 
+
+Need to modify：
+* 1.import问题，先删除该报错的import行，在下面报错的代码上，ALT+Enter键，补全import导包。
+  如：from FaceBoxes.FaceBoxes import FaceBoxes   、from models.mobilefacenet import MobileFaceNet
+* 2.from PIL import Image报错，安装Pillow==7.1.1
+* 3.第三点见“大修第三点.jpg”
+* 4.缺的包pip一下
+* 5.test_camera_mobilefacenet_openvino.py运行不了，openvino目前不支持
+
+
 ## References:
 * https://github.com/cunjian/pytorch_face_landmark(first)
 * https://github.com/biubug6/Pytorch_Retinaface
 * https://github.com/cleardusk/3DDFA_V2
 * https://github.com/lzx1413/pytorch_face_landmark
 * https://github.com/polarisZhao/PFLD-pytorch
-
-修改的地方：
-* 1.import问题，先删除该报错的import行，在下面报错的代码上，ALT+Enter键，补全import导包。
-如：from FaceBoxes.FaceBoxes import FaceBoxes   、from models.mobilefacenet import MobileFaceNet
-* 2.from PIL import Image报错，安装Pillow==7.1.1
-* 3.第三点见“大修第三点.jpg”
-* 4.缺的包pip一下
-* 5.test_camera_mobilefacenet_openvino.py运行不了，openvino目前不支持
-
 
