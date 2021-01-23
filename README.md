@@ -102,5 +102,12 @@ The following features will be added soon.
 * 4.缺的包pip一下
 * 5.test_camera_mobilefacenet_openvino.py运行不了，openvino目前不支持
 
-
-
+## Dependencies:
+* pycharm + Anaconda
+* > GeForce GTX 1660TI
+* pytorch==1.0.0
+* torchvision==0.2.1
+* cuda100
+* numpy==1.19.5
+* onnx==1.8.0
+* Pillow==7.1.1
