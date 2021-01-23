@@ -1,3 +1,16 @@
+## Dependencies:
+* Windows10
+* python==3.6.10
+* pycharm + Anaconda
+* > GeForce GTX 1660TI
+* pytorch==1.0.0
+* torchvision==0.2.1
+* cuda100
+* numpy==1.19.5
+* onnx==1.8.0
+* Pillow==7.1.1
+
+
 # Pytorch Face Landmark Detection
 Implementation of face landmark detection with PyTorch. The models were trained using coordinate-based or heatmap-based regression methods. Different face detetors were supported. A [video demo](https://lnkd.in/eH27JcP) and [image detection](https://github.com/cunjian/pytorch_face_landmark/tree/master/results) results were displayed here. 
 
@@ -71,16 +84,7 @@ Optimize with OpenVINO and test on a camera with a lightweight face detector. Ab
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/results/12_Group_Group_12_Group_Group_12_41.jpg)
 
 
-## Dependencies:
-* Windows10
-* pycharm + Anaconda
-* > GeForce GTX 1660TI
-* pytorch==1.0.0
-* torchvision==0.2.1
-* cuda100
-* numpy==1.19.5
-* onnx==1.8.0
-* Pillow==7.1.1
+
 
 ## TODO
 The following features will be added soon. 
