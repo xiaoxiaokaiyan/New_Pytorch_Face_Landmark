@@ -19,6 +19,7 @@ Implementation of face landmark detection with PyTorch. The models were trained 
 * Support ONNX and OpenVINO inferences. 
 * Support heatmap-based models.
 
+
 ## Inference
 Test on a sample folder and save the landmark detection results. Support different backbones and face detectors.
 > python3 test_batch_detections.py --backbone MobileFaceNet --detector Retinaface
@@ -32,6 +33,8 @@ Optimize with ONNX and test on a camera with a lightweight face detector. It can
 
 Optimize with OpenVINO and test on a camera with a lightweight face detector. About 10 times faster than ONNX.
 > python3 test_camera_mobilefacenet_openvino.py
+
+
 
 ## Benchmark Results on 300W
 
@@ -66,6 +69,8 @@ Optimize with OpenVINO and test on a camera with a lightweight face detector. Ab
 |:-:|:-:|:-:|:-:|:-:|
 | Hourglass2  | 3.06 | 5.54 | 3.55 | 8.73 | 
 
+
+
 ## Visualization Results
 * Face camera test 1
 
@@ -84,14 +89,13 @@ Optimize with OpenVINO and test on a camera with a lightweight face detector. Ab
 ![img1](https://github.com/xiaoxiaokaiyan/new-pytorch_face_landmark/blob/master/results/12_Group_Group_12_Group_Group_12_41.jpg)
 
 
-
-
 ## TODO
 The following features will be added soon. 
 - Still to come:
   * [x] Support for the 39-point detection
   * [ ] Support for the 106 point detection
   * [ ] Support for heatmap-based inferences
+  
  
 ## Public Datasets:
 
@@ -100,8 +104,7 @@ The following features will be added soon.
 * 106-point: [JD](https://facial-landmarks-localization-challenge.github.io/)
 
 
-
-Need to modify：
+## Need to modify：
 * 1.import问题，先删除该报错的import行，在下面报错的代码上，ALT+Enter键，补全import导包。
   如：from FaceBoxes.FaceBoxes import FaceBoxes   、from models.mobilefacenet import MobileFaceNet
 * 2.from PIL import Image报错，安装Pillow==7.1.1
